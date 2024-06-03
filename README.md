@@ -75,6 +75,7 @@ Any findings that were acknowledged, disputed or in QA reports from the past aud
 - M-01: Withdrawals can fail due to deposits reverting in completeQueuedWithdrawal()
 - M-03: Fixed hearbeat used for price validation is too stale for some tokens
 - M-04: Price updating mechanism can break
+- M-05: calculateTVL may run out of gas for modest number of operators and tokens breaking deposits, withdrawals, and trades
 - M-06: L1::xRenzoBridge and L2::xRenzoBridge uses the block.timestamp as dependency, which can cause issue.
 - M-07: Lack of slippage and deadline during withdraw and deposit
 - M-08: Not handling the failure of cross chain messaging
