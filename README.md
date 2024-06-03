@@ -42,9 +42,6 @@ Mitigations of all High and Medium issues will be considered in-scope and listed
 - [M-13: Pending withdrawals prevent safe removal of collateral assets](https://github.com/code-423n4/2024-04-renzo-findings/issues/103)
 - [M-14: stETH/ETH Feed being used opens up to 2 way deposit<->withdrawal arbitrage](https://github.com/code-423n4/2024-04-renzo-findings/issues/13)
 
-## Overview of changes
-
-Please provide context about the mitigations that were applied if applicable and identify any areas of specific concern.
 
 ## Scope
 
