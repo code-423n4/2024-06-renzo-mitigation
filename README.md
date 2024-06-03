@@ -21,26 +21,14 @@ Mitigations of all High and Medium issues will be considered in-scope and listed
 - [H-02: Incorrect calculation of queued withdrawals can deflate TVL and increase ezETH mint rate](https://github.com/code-423n4/2024-04-renzo-findings/issues/395)
 - [H-03: ETH withdrawals from EigenLayer always fail due to OperatorDelegator's nonReentrant receive()](https://github.com/code-423n4/2024-04-renzo-findings/issues/368)
 - [H-04: Withdrawals logic allows MEV exploits of TVL changes and zero-slippage zero-fee swaps](https://github.com/code-423n4/2024-04-renzo-findings/issues/326)
-- [H-05: Withdrawals of rebasing tokens can lead to insolvency and unfair distribution of protocol reserves](https://github.com/code-423n4/2024-04-renzo-findings/issues/282)
-- [H-06: The amount of xezETH in circulation will not represent the amount of ezETH tokens 1:1](https://github.com/code-423n4/2024-04-renzo-findings/issues/145)
 - [H-07: DOS of completeQueuedWithdrawal when ERC20 buffer is filled](https://github.com/code-423n4/2024-04-renzo-findings/issues/87)
 - [H-08: Incorrect withdraw queue balance in TVL calculation](https://github.com/code-423n4/2024-04-renzo-findings/issues/28)
 
 ### Medium Findings
-- [M-01: Withdrawals can fail due to deposits reverting in completeQueuedWithdrawal()](https://github.com/code-423n4/2024-04-renzo-findings/issues/604)
 - [M-02: Withdrawals and Claims are meant to be pausable, but it is not possible in practice](https://github.com/code-423n4/2024-04-renzo-findings/issues/569)
-- [M-03: Fixed hearbeat used for price validation is too stale for some tokens](https://github.com/code-423n4/2024-04-renzo-findings/issues/563)
-- [M-04: Price updating mechanism can break](https://github.com/code-423n4/2024-04-renzo-findings/issues/519)
-- [M-05: calculateTVL may run out of gas for modest number of operators and tokens breaking deposits, withdrawals, and trades](https://github.com/code-423n4/2024-04-renzo-findings/issues/514)
-- [M-06: L1::xRenzoBridge and L2::xRenzoBridge uses the block.timestamp as dependency, which can cause issue.](https://github.com/code-423n4/2024-04-renzo-findings/issues/502)
-- [M-07: Lack of slippage and deadline during withdraw and deposit](https://github.com/code-423n4/2024-04-renzo-findings/issues/484)
-- [M-08: Not handling the failure of cross chain messaging](https://github.com/code-423n4/2024-04-renzo-findings/issues/373)
 - [M-09: Deposits will always revert if the amount being deposited is less than the bufferToFill value](https://github.com/code-423n4/2024-04-renzo-findings/issues/198)
-- [M-10: Potential Arbitrage Opportunity in the xRenzoDeposit L2 contract](https://github.com/code-423n4/2024-04-renzo-findings/issues/135)
-- [M-11: Fetched price from the oracle is not stored in xRenzoDeposit](https://github.com/code-423n4/2024-04-renzo-findings/issues/117)
 - [M-12: Incorrect exchange rate provided to Balancer pools](https://github.com/code-423n4/2024-04-renzo-findings/issues/113)
-- [M-13: Pending withdrawals prevent safe removal of collateral assets](https://github.com/code-423n4/2024-04-renzo-findings/issues/103)
-- [M-14: stETH/ETH Feed being used opens up to 2 way deposit<->withdrawal arbitrage](https://github.com/code-423n4/2024-04-renzo-findings/issues/13)
+
 
 
 ## Scope
