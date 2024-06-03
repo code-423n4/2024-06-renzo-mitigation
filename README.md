@@ -42,8 +42,6 @@ Mitigations of all High and Medium issues will be considered in-scope and listed
 - [M-13: Pending withdrawals prevent safe removal of collateral assets](https://github.com/code-423n4/2024-04-renzo-findings/issues/103)
 - [M-14: stETH/ETH Feed being used opens up to 2 way deposit<->withdrawal arbitrage](https://github.com/code-423n4/2024-04-renzo-findings/issues/13)
 
-[ ⭐️ SPONSORS ADD INFO HERE ]
-
 ## Overview of changes
 
 Please provide context about the mitigations that were applied if applicable and identify any areas of specific concern.
@@ -51,28 +49,23 @@ Please provide context about the mitigations that were applied if applicable and
 ## Scope
 
 ### Branch
-[ ⭐️ SPONSORS ADD A LINK TO THE BRANCH IN YOUR REPO CONTAINING ALL PRS ]
+
+https://github.com/Renzo-Protocol/Contracts
 
 ### Mitigation of High & Medium Severity Issues
-[ ⭐️ SPONSORS ADD ALL RELEVANT PRs TO THE TABLE BELOW:]
 
-Wherever possible, mitigations should be provided in separate pull requests, one per issue. If that is not possible (e.g. because several audit findings stem from the same core problem), then please link the PR to all relevant issues in your findings repo. 
-
-| URL | Mitigation of | Purpose | 
-| ----------- | ------------- | ----------- |
-| https://github.com/your-repo/sample-contracts/pull/XXX | H-01 | This mitigation does XYZ | 
-
-### Additional scope to be reviewed
-[ ⭐️ CAS PLEASE REMOVE THIS SECTION IF THE SPONSOR IS ONLY MITIGATING HMS]
-
-[ ⭐️ SPONSORS ADD ALL RELEVANT PRs TO THE TABLE BELOW:]
-
-These are additional changes that will be in scope.
-
-| URL | Mitigation of | Purpose | 
-| ----------- | ------------- | ----------- |
-| https://github.com/your-repo/sample-contracts/pull/XXX | H-01 | This mitigation does XYZ | 
+| URL                                                                                                                                                                        | Mitigation of |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| https://github.com/Renzo-Protocol/Contracts/pull/109                                                                                                                       | H-01          |
+| https://github.com/Renzo-Protocol/Contracts/pull/87/commits/89a344ba837d98018b63a450666a72b0827aa8cf                                                                       | H-02          |
+| https://github.com/Renzo-Protocol/Contracts/pull/87/commits/5700b8dd6318b6ac1c7a50875a12b167da65f032                                                                       | H-03          |
+| https://github.com/Renzo-Protocol/Contracts/pull/111                                                                                                                       | H-04          |
+| https://github.com/Renzo-Protocol/Contracts/pull/87/commits/647bc4ca9fa181bf87f1b885e09a887bd0eb6c7c                                                                       | H-07          |
+| https://github.com/Renzo-Protocol/Contracts/pull/87/commits/2e4f4c6701ed004c2f10addde2d3089ac1b3d032                                                                       | H-08          |
+| https://github.com/Renzo-Protocol/Contracts/pull/87/commits/2e4f4c6701ed004c2f10addde2d3089ac1b3d032                                                                       | M-02          |
+| https://github.com/Renzo-Protocol/Contracts/pull/87/commits/89a344ba837d98018b63a450666a72b0827aa8cf#diff-9ef0de77fd5c84001c61efd21485131caa42626118759d9ae76d8b652726dc8c | M-09          |
+| https://github.com/Renzo-Protocol/Contracts/pull/113                                                                                                                       | M-12          |
 
 ## Out of Scope
 
-Please list any High and Medium issues that were judged as valid but you have chosen not to fix.
+Any findings that were acknowledged, disputed or in QA reports from the past audit.
