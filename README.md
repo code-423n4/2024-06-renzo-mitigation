@@ -69,3 +69,16 @@ https://github.com/Renzo-Protocol/Contracts
 ## Out of Scope
 
 Any findings that were acknowledged, disputed or in QA reports from the past audit.
+
+- H-05: Withdrawals of rebasing tokens can lead to insolvency and unfair distribution of protocol reserves
+- H-06: The amount of xezETH in circulation will not represent the amount of ezETH tokens 1:1
+- M-01: Withdrawals can fail due to deposits reverting in completeQueuedWithdrawal()
+- M-03: Fixed hearbeat used for price validation is too stale for some tokens
+- M-04: Price updating mechanism can break
+- M-06: L1::xRenzoBridge and L2::xRenzoBridge uses the block.timestamp as dependency, which can cause issue.
+- M-07: Lack of slippage and deadline during withdraw and deposit
+- M-08: Not handling the failure of cross chain messaging
+- M-10: Potential Arbitrage Opportunity in the xRenzoDeposit L2 contract
+- M-11: Fetched price from the oracle is not stored in xRenzoDeposit
+- M-13: Pending withdrawals prevent safe removal of collateral assets
+- M-14: stETH/ETH Feed being used opens up to 2 way deposit<->withdrawal arbitrage
